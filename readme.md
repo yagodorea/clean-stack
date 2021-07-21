@@ -6,16 +6,18 @@ Removes the mostly unhelpful internal Node.js entries.
 
 Also works in Electron.
 
+CommonJS version fork
+
 ## Install
 
-```
-$ npm install clean-stack
+```bash
+npm install clean-stack
 ```
 
 ## Usage
 
 ```js
-import cleanStack from 'clean-stack';
+const cleanStack = require('clean-stack');
 
 const error = new Error('Missing unicorn');
 

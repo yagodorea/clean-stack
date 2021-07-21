@@ -1,5 +1,5 @@
-import {expectType} from 'tsd';
-import cleanStack from './index.js';
+import { expectType } from 'tsd';
+const cleanStack = require('./index.js');
 
 const error = new Error('Missing unicorn');
 

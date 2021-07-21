@@ -26,7 +26,7 @@ Clean up error stack traces. Removes the mostly unhelpful internal Node.js entri
 
 @example
 ```
-import cleanStack from 'clean-stack';
+const cleanStack = require ('clean-stack');
 
 const error = new Error('Missing unicorn');
 
